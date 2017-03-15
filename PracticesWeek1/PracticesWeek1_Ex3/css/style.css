@@ -1,0 +1,68 @@
+html {
+	font-family: Comic;
+}
+
+body {
+	width: 80%;
+    margin: auto;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+section {
+	margin-top: 5%;
+}
+
+article,
+aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    position: relative;
+    width: 25%;
+    background-color: #F23232;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside a {
+	color: white;
+}
+
+nav {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F23232;
+    text-align: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+
+}
+
+
+footer {
+	margin-top: 5%;
+	text-align: center;
+}
+

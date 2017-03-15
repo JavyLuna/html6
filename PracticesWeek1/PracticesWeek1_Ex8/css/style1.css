@@ -1,0 +1,52 @@
+body{
+    background-color: orange;
+}
+
+li{
+    list-style: none;
+}
+
+div{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+section{
+
+    text-align: center;
+    display: inline-block;
+    width: 69%;
+    height: 546px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+nav{
+    color: white;
+    float: right;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    border: 1px solid gray;
+    height: 546px;
+    background-color: blue;
+}
+
+nav  *:active{
+    color: red;
+    background-color: darkblue;
+}
+
+nav  li{
+    border: 1px solid;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
+article *:nth-child(3){
+    display: inline-block;
+    vertical-align: middle;
+    padding: 200px 0px 0px 0px;;
+}
+

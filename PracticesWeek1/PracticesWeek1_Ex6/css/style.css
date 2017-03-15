@@ -1,0 +1,41 @@
+        body{
+            margin: 0;
+            font-family: sans-serif;
+        }
+        header{
+            text-align: center;
+        }
+        h3{
+            margin: 12px 0px;
+        }
+        nav{
+            text-align: center;
+            margin-top: 10px;
+            background-color: #c0392b;
+        }
+        nav li{
+            display: inline-block;
+            padding: 12px;
+            color: #ecf0f1;
+        }
+        section article:nth-child(1){
+            display: inline-block;
+            border: 1px solid gray;
+            padding: 12px;
+            width: 45%;
+        }
+        section article:nth-child(2){
+            display: inline-block;
+            padding: 4px;
+            width: 45%;
+        }
+        section article h3{
+            color: #c0392b;
+        }
+        
+        footer{
+            text-align: center;
+            padding: 10px 5px;
+            color: #ecf0f1;
+            background-color: #c0392b;
+        }

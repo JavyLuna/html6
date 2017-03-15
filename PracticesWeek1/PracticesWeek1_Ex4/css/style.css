@@ -1,0 +1,64 @@
+html {
+    font-family: Arial;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+}
+
+
+h1, h2, h3 {
+    text-align: right;
+    color: #162478;
+}
+
+#titleServices, #titleProducts {
+	text-align: left;
+}
+
+nav {
+    background: rgba(0, 0, 125, 0.1);
+    height: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border: 3px outset #E0E0E0;
+	border-radius: 5px;
+
+}
+
+ul li {
+	padding: 0;
+	margin: 0 15px;
+	display: inline;
+}
+
+p {
+	margin-top: 5%;
+}
+
+#partners p {
+	margin-top: 0;
+}
+
+article {
+	width: 60%;
+	border: 2px solid #162478;
+	margin: 0 3% 1% 0;
+	padding: 1% 1% 1% 0.5%;
+}
+
+aside {
+	background: rgba(0, 0, 125, 0.1);
+	border: 5px solid #BDBDBD;
+	position: relative;
+	width: 30%;
+	float: right;
+	padding: 1%
+}
+
+article, aside {
+	display: inline-block;
+	vertical-align: top;
+}

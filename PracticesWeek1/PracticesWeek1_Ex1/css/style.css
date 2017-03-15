@@ -1,0 +1,23 @@
+body{
+       background-color: #193549;
+       font-family: sans-serif;
+       color: white;
+}
+a{
+      margin: 4px 10px;
+     text-decoration: none;
+  }
+      .links a:nth-child(1){
+          color: red;
+      }
+      .links a:nth-child(2){
+          color: royalblue;
+      }
+       .links a:nth-child(3){
+           color: purple;
+       }
+      .images img{
+           width: 50%;
+           border-radius: 2px;
+           margin: 8px;
+         }
